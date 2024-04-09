@@ -23,5 +23,5 @@ Solutions to leetcode problems and learnings
 #### Add Two Numbers
 
 * Applied usual addition technique SOP when done manual
-* Special care needs to be given to carryovers as corner-scenario.
-* Try to optimize NULL checks and don't have too many IF checks.
+* Special care needs to be given to carryovers as corner-scenario
+* Try to optimize NULL checks and don't have too many IF checks
