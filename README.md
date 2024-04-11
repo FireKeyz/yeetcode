@@ -33,3 +33,8 @@ Solutions to leetcode problems and learnings
   * Empty strings
   * Whitespace characters
   * What happens when a branching condition is never hit i.e., input is the answer
+* While keeping track of characters, see if a character array will come in handy to count -
+  * `int[26]` - for the english alphabet
+  * `int[128]` - ASCII
+  * `int[256]` - Extended ASCII
+* **Sliding Window** - Keeping track of a particular segment of the data array and keep moving the bounds and processing
