@@ -25,3 +25,11 @@ Solutions to leetcode problems and learnings
 * Applied usual addition technique SOP when done manual
 * Special care needs to be given to carryovers as corner-scenario
 * Try to optimize NULL checks and don't have too many IF checks
+
+#### Longest Substring Without Repeating Characters
+
+* When it comes to String problems - always check for -
+  * NULL
+  * Empty strings
+  * Whitespace characters
+  * What happens when a branching condition is never hit i.e., input is the answer
