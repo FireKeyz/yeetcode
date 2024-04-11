@@ -2,6 +2,10 @@
 
 Solutions to leetcode problems and learnings
 
+## References
+
+> Leetcode editorial screenshots - <https://github.com/akhilkammila/leetcode-screenshotter>
+
 ## Learnings
 
 ### Easy
