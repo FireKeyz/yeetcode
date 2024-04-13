@@ -66,3 +66,7 @@ Solutions to leetcode problems and learnings
 * For adjacent element comparison - always apply `Stack` and verify if it works
 * Be aware of the limitation of Integer/Long before converting a super-long String into numeric equivalent
 * **Strip leading zeroes** - Either parse to Integer & back, use Regex, Apache Utils or just check element and remove/reduce
+
+#### Container with Most Water
+
+* Amazing problem. A key takeaway being when exploring `m*n` possibilities, when you take a given `m` and realize after one/some value of `n`, it doesn't make sense to continue processing with other `n` values as we will never get to the end/better result, just drop the `m` and move to the next `m`
