@@ -42,3 +42,9 @@ Solutions to leetcode problems and learnings
   * `int[128]` - ASCII
   * `int[256]` - Extended ASCII
 * **Sliding Window** - Keeping track of a particular segment of the data array and keep moving the bounds and processing
+
+#### Remove K Digits
+
+* Came across the concept of Monotonic stack refers to a stack with elements that in either increasing or decreasing order - [GFG Link](https://www.geeksforgeeks.org/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/)
+* Use the Java inbuilt [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) class for easy use with standard operations
+* For adjacent element comparison - always apply `Stack` and verify if it works
