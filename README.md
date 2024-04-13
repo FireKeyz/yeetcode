@@ -28,6 +28,16 @@ Solutions to leetcode problems and learnings
 * While trying to find a suitable match in another array for an element in the given array - try converting Array to Set/Map to speed up look-up time.
 * Compute final/expected result for each array/element if possible and intelligently use Diff based approaches i.e, what it takes to get to the result.
 
+#### Palindrome Number
+
+* Try to have initial checks and return in case of edge cases, 0, negative numbers etc.
+* If you are going to modify input, ensure it's backed up in case needed later
+
+#### Sqrt(x)
+
+* Handle edge scenarios like 0 & 1
+* When you need to explore a huge set of numbers, especially ordered, prefer binary search over linear
+
 ### Medium
 
 #### Add Two Numbers
