@@ -22,11 +22,17 @@ Solutions to leetcode problems and learnings
   * This will give you near `O(1)` runtime and in case of hash collisions `O(n)` which is rare.
 * Try to optimize some problems by making using of initial loop where you populate your data structure to also execute business logic
 
+#### Fair Candy Swap
+
+* Post tackling `O(mxn)` or `O(n^2)`, always try to solve in `O(n)` - Basically lower complexities
+* While trying to find a suitable match in another array for an element in the given array - try converting Array to Set/Map to speed up look-up time.
+* Compute final/expected result for each array/element if possible and intelligently use Diff based approaches i.e, what it takes to get to the result.
+
 ### Medium
 
 #### Add Two Numbers
 
-* Applied usual addition technique SOP when done manual
+* Apply usual addition technique SOP when done manual when dealing with addition with data structures
 * Special care needs to be given to carryovers as corner-scenario
 * Try to optimize NULL checks and don't have too many IF checks
 
@@ -48,3 +54,5 @@ Solutions to leetcode problems and learnings
 * Came across the concept of Monotonic stack refers to a stack with elements that in either increasing or decreasing order - [GFG Link](https://www.geeksforgeeks.org/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/)
 * Use the Java inbuilt [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) class for easy use with standard operations
 * For adjacent element comparison - always apply `Stack` and verify if it works
+* Be aware of the limitation of Integer/Long before converting a super-long String into numeric equivalent
+* **Strip leading zeroes** - Either parse to Integer & back, use Regex, Apache Utils or just check element and remove/reduce
