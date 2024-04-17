@@ -61,3 +61,9 @@ Solutions to leetcode problems and learnings
 #### Container with Most Water
 
 * When exploring `m*n` possibilities, when you take a given `m` and realize after one/some value of `n`, it doesn't make sense to continue processing with other `n` values as we will never get to the end/better result, just drop the `m` and move to the next `m`
+
+#### Remove Nth Node from the end of List
+
+* In LinkedList traversal questions, explore if you can make use of :
+  * Have multiple pointers
+  * Move the pointers at different rates *(delay of N, once every X moves of first pointer)*
