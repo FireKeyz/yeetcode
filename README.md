@@ -67,3 +67,8 @@ Solutions to leetcode problems and learnings
 * In LinkedList traversal questions, explore if you can make use of :
   * Have multiple pointers
   * Move the pointers at different rates *(delay of N, once every X moves of first pointer)*
+
+#### Remove Nodes From Linked List
+
+* Used Monotoric stack to remove nodes
+* **Optimal way** - Reverse the LinkedList i.e., basically start traversing from the right end and construct new LL with max elements
